@@ -1,13 +1,45 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*
+remove default style like border padding and margin from all elements */
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    /* make box sizing in child element inherit the parent which is now set in body tag 
+    by default box-sizing does not inherit */
+    box-sizing: inherit; 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+html {
+  /*VID 18:  rem is always in relation to root font-size default is 16px
+  1 rem is now 10 px  - this can be used as global config for responsive pages
+  em depends on parent element*/
+  /* font-size: 10px;  */
+
+  /* but adding px for font-size is bad practice as it resets default browser font 
+      and it cannot be changed by user
+      as we want the default font size to 10px div and default is 16 we div 10/16  
+  */
+  font-size: 62.5%;
+
+  
+}
+
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  /* font-size: 20px; */
+   /* line height is now 1.7 times larger than default  */
+  line-height: 1.7;
+  color: #777777;
+  /* padding: 2rem; */
+  margin: 0;
+
+  /* remove default border and padding  */
+  box-sizing: border-box; 
+  
 }

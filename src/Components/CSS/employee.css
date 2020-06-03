@@ -1,0 +1,103 @@
+.emp-header {
+    font-size: 2.4rem;
+    text-align: center;
+    background-color: #ceeff5;
+}
+
+.emp-container {
+    padding: 2rem;
+}
+
+.emp-list {
+    font-size: 2.0rem;
+    border-bottom: 1px solid #f5f4f4;
+    margin-bottom: 2rem;
+}
+
+.employees {    
+    font-size: 1.5rem;
+    border-bottom: 1px solid #f5f4f4;
+    height: 5rem;
+    padding-top: 10px;
+    
+    font-weight: 700;
+}
+
+.employees a {
+    text-decoration: none;
+    color: #777777;
+    cursor: pointer;
+}
+
+.employees:hover {    
+   background-color: #e8e6e6;
+}
+
+.caret-sign {
+    font-weight: 400;
+    float: right;
+    padding-right: 0.9rem;
+}
+
+.filter {
+    float: right;
+   
+}
+
+.filter .filter-text {
+    font-size: 1.4rem;
+    height: 2.5rem;
+    width: 25rem;
+    border-radius: 2rem;
+    padding-left: 1rem;
+}
+
+.sorted {
+    margin-right: 2rem;
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.6rem;
+}
+
+.empDetails-id-container {
+    font-size: 1.5rem;
+    padding-top: 3rem;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 3rem;
+}
+
+.resume-flip {
+    float: right;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+
+.empDetails-id-container {
+    height: 8rem;
+}
+
+.employee-id {
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.employeeDetails {
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+.employeeDetails .label1 {
+    display: inline-block;
+    width: 45%;
+    margin-left: 1.9rem;
+    text-align: right;
+    /* float: left; */
+}
+
+.employeeDetails .emp-details {
+    display: inline-block;
+    width: 49%;
+    margin-left: 1.9rem;
+    text-align: left;
+    /* float: left; */
+}

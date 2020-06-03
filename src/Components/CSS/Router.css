@@ -1,0 +1,63 @@
+.header-home {
+    height: 5rem;
+    width: 100%;
+    background-color: #ceeff5;
+    margin: 0;
+    position: relative;
+}
+
+.header-home .home {
+    position: absolute;
+    left: 50%;
+    font-size: 2.5rem;
+    font-weight: 400;
+    transform: translate(-50%, 0%);
+}
+
+.browser-link {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    text-decoration: none;
+    margin-left: 2rem;
+    list-style: none;
+}
+
+.browser-link a {
+    margin-right: 1rem;
+    text-decoration: none;
+    
+    border: 1px solid #000;
+    background-color: #ceeff5;
+    padding: 1rem 4rem;
+    display: inline-block;
+
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.not-found h1 {
+    display: inline-block;
+    position: absolute;
+    /* margin: 0 auto; */
+    width: 30%;
+    left: 50%;
+    height: 50%;
+    top: 40%;
+    transform: translate(-30%, 0px);
+}
+
+.back {
+    float: left;
+    margin-left: 2rem;
+    display: inline-block;
+}
+
+.back a {
+    text-decoration: none;
+}
+
+.back a:hover {
+    text-decoration: underline;
+}
